@@ -1,0 +1,25 @@
+SalaryManagementSystem/
+├── SalaryModel/                    (Class Library - Lab 02, 04, 10)
+│   ├── Angajat.cs
+│   ├── Departament.cs
+│   ├── TipSalariu.cs
+│   └── SalaryModel.csproj
+├── SalaryStorage/                  (Class Library - Lab 03, 05)
+│   ├── IStocareData.cs
+│   ├── AdministrareAngajatiMemorie.cs
+│   ├── AdministrareAngajatiFisierText.cs
+│   ├── StocareFactory.cs
+│   └── SalaryStorage.csproj
+├── SalaryUI/                       (WPF Application - Lab 06-11)
+│   ├── App.xaml
+│   ├── App.xaml.cs
+│   ├── MainWindow.xaml
+│   ├── MainWindow.xaml.cs
+│   ├── ViewModels/
+│   │   └── MainViewModel.cs
+│   ├── Commands/
+│   │   └── RelayCommand.cs
+│   ├── Converters/
+│   │   └── EnumToBooleanConverter.cs
+│   └── SalaryUI.csproj
+└── SalaryManagementSystem.sln
